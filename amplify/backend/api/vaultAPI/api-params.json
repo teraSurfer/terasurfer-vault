@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/s3-files",
+            "lambdaFunction": "vaultDynamoFunction",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "vaultAPI",
+    "apiName": "vaultAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "vaultDynamoFunction"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-terasurfer-vault-dev-113901-authRole",
+        "unAuthRoleName": "amplify-terasurfer-vault-dev-113901-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "vaultDynamoFunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "add-to-group"
+    ],
+    "parentResource": "terasurfervaulta97b9520",
+    "functionName": "terasurfervaulta97b9520PostConfirmation",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PostConfirmation.json.ejs",
+    "roleName": "terasurfervaulta97b9520PostConfirmation",
+    "skipEdit": true,
+    "resourceName": "terasurfervaulta97b9520PostConfirmation"
+}

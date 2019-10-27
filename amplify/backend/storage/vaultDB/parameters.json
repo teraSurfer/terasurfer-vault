@@ -1,0 +1,5 @@
+{
+    "tableName": "s3filestable",
+    "partitionKeyName": "CognitoUserId",
+    "partitionKeyType": "S"
+}

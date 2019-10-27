@@ -1,0 +1,24 @@
+@import './variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+html, body{
+    height: 100%;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+.Button__button___1FrBC {
+    background: $projectPrimary;
+}
+.Button__button___1FrBC:focus {
+    background: $projectAccent;
+}
+.router-link-exact-active {
+    border-bottom: 1px solid white;
+}

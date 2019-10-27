@@ -1,0 +1,24 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-terasurfer-vault-dev-113901-authRole",
+            "UnauthRoleArn": "arn:aws:iam::104349172281:role/amplify-terasurfer-vault-dev-113901-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::104349172281:role/amplify-terasurfer-vault-dev-113901-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-terasurfer-vault-dev-113901-deployment",
+            "UnauthRoleName": "amplify-terasurfer-vault-dev-113901-unauthRole",
+            "StackName": "amplify-terasurfer-vault-dev-113901",
+            "StackId": "arn:aws:cloudformation:us-east-1:104349172281:stack/amplify-terasurfer-vault-dev-113901/b49acfb0-f81f-11e9-859b-0a1726208052"
+        },
+        "categories": {
+            "function": {
+                "terasurfervaulta97b9520PostConfirmation": {
+                    "GROUP": "users"
+                }
+            },
+            "auth": {
+                "terasurfervaulta97b9520": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "auth": {
+            "terasurfervaulta97b9520": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
